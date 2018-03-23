@@ -1,5 +1,7 @@
 # lunchtype.css
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/lunchtype.css.svg)](https://greenkeeper.io/)
+
 Golang fonts as a node packaged module.
 
 [![latest version][npm-img]][npm-url] [![build status][travis-img]][travis-url] [![stability][stability-img]][stability-url] [![downloads][downloads-img]][npm-url]
