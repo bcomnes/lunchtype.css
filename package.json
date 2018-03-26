@@ -1,7 +1,7 @@
 {
   "name": "lunchtype.css",
   "description": "Lunchtype fonts as a node packaged module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Bret Comnes",
     "url": "https://bret.io"
