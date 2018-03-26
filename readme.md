@@ -1,6 +1,6 @@
 # lunchtype.css
 
-Golang fonts as a node packaged module.
+Lunchtype fonts as a node packaged module.
 
 [![latest version][npm-img]][npm-url] [![build status][travis-img]][travis-url] [![stability][stability-img]][stability-url] [![downloads][downloads-img]][npm-url]
 
@@ -23,11 +23,25 @@ The css is exported from the package.json `main` field and can be imported using
 ## Usage
 
 ```css
-@import 'lunchtype.css';
+@import "lunchtype.css"; /* or @import "lunchtype.css/LunchType22/Web/stylesheets.css"; */
+.lunchtype-regular { font-family: "lunchtype22regular", sans-serif; }
+.lunchtype-medium { font-family: "lunchtype22medium", sans-serif; }
+.lunchtype-light { font-family: "lunchtype22light", sans-serif; }
 
-body { font-family: Go, sans-serif; }
+@import "lunchtype.css/LunchType23/Web/stylesheets.css";
+.lunchtype-italic { font-family: "lunchtype23italic", sans-serif; }
+.lunchtype-medium_italic { font-family: "lunchtype23medium_italic", sans-serif; }
+.lunchtype-light_italic { font-family: "lunchtype23light_italic", sans-serif; }
 
-pre, code { font-family: "Go Mono", monospace; }
+@import "lunchtype.css/LunchType24/Web/stylesheets.css";
+.lunchtype-expanded_regular { font-family: "lunchtype24expanded_regular", sans-serif; }
+.lunchtype-expanded_medium { font-family: "lunchtype24expanded_medium", sans-serif; }
+.lunchtype-expanded_light { font-family: "lunchtype24expanded_light", sans-serif; }
+
+@import "lunchtype.css/LunchType25/Web/stylesheets.css";
+.lunchtype-condensed_light { font-family: "lunchtype25condensed_light", sans-serif; }
+.lunchtype-condensed_medium { font-family: "lunchtype25condensed_medium", sans-serif; }
+.lunchtype-condensed_regular { font-family: "lunchtype25condensed_regular", sans-serif; }
 ```
 
 ### PostCSS
@@ -56,8 +70,7 @@ $ postcss styles.css -o dist/bundle.css
 
 ## Credits
 
-- [blog.golang.org/lunchtype](https://blog.golang.org/lunchtype)
-- [go.googlesource.com/image/+/master/font/gofont](https://go.googlesource.com/image/+/master/font/gofont)
+- [lunchtype.com](http://lunchtype.com)
 
 ## See also
 
@@ -65,3 +78,4 @@ $ postcss styles.css -o dist/bundle.css
 - [top-bar.css](https://github.com/ungoldman/top-bar.css)
 - [fraktur.css](https://github.com/bcomnes/fraktur.css)
 - [chigaco.css](https://github.com/bcomnes/chicago.css)
+- [big-cursors.css](https://github.com/bcomnes/big-cursors.css)
